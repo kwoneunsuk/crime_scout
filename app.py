@@ -17,7 +17,7 @@ with col1:
       st.write(' - 테스트 데이터 : 9건')
 with col2:
       st.subheader('2. 기계학습 모델의  성능')
-      image_path = '/content/predition.png' # 로컬 이미지 파일 경로
+      image_path = '/content/prediction.png' # 로컬 이미지 파일 경로
       st.image(image_path )   # 이미지 불러오기
 
 st.subheader('예측 연도')
