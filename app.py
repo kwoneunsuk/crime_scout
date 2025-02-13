@@ -1,5 +1,9 @@
 import streamlit as st
 
+# 기계학습 모델 저장
+import joblib
+joblib.dump(model, 'crime_scout_LinearRegression_model.pkl')
+
 #  기계학습 모델 파일 로드(모델명 : _______)
 import joblib
 model = joblib.load('crime_scout_LinearRegression_model.pkl')
